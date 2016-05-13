@@ -11,7 +11,7 @@ About
 -----
 
 WebSockets allows a socket connection in the browser but not a pure TCP socket. 
-JavaScript-AS3-Socket allows a connection to any pure TCP socket or even UDP socket connection. 
+JavaScript-AS3-Socket allows a connection to any pure TCP server from the browser. 
 You can connect directly to a mail server, bitTorrent, even SSH, directly from the browser.
 
 Documentation
