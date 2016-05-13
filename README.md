@@ -7,16 +7,18 @@ The JavaScript client will include the Flash SWF that proxies the socket for Jav
 JavaScript-as3-sockets only requires native JavaScript and Flash with as3 support. 
 
 About
+-----
 
 WebSockets allows a socket connection in the browser but not a pure TCP socket. 
 
 Documentation
+-------------
 
-Include the `release/javascript-as3-socket` directory and it's contents in your JavaScript project.
-Eg: You can create a directory structure such as `js/javascript-as3-socket/*` in your project. 
-Include the JS files in your HTML. `javascript-as3-socket/js/Socket.js` and `javascript-as3-socket/js/swfobject.js` 
-Make sure you also have `javascript-as3-socket/JavascriptSocket.swf` and `javascript-as3-socket/expressInstall.swf`. 
-Use the global `Socket` constructor to create a new socket connection:
+* Include the `release/javascript-as3-socket` directory and it's contents in your JavaScript project.
+* Eg: You can create a directory structure such as `js/javascript-as3-socket/*` in your project. 
+* Include the JS files in your HTML. `javascript-as3-socket/js/Socket.js` and `javascript-as3-socket/js/swfobject.js` 
+* Make sure you also have `javascript-as3-socket/JavascriptSocket.swf` and `javascript-as3-socket/expressInstall.swf`. 
+* Use the global `Socket` constructor to create a new socket connection:
 
 ```
 var socket = new Socket({
