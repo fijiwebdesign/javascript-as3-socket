@@ -3,13 +3,16 @@
 Pure JavaScript sockets client in the browser using flash.net.Socket
 
 The JavaScript client will include the Flash SWF that proxies the socket for JavaScript. No ActionScript experience is required. 
+JavaScript-as3-sockets requires Flash with as3 support. 
 
-JavaScript-as3-sockets only requires native JavaScript and Flash with as3 support. 
+Usage of Flash is lower than it used to be, however, you can still make use of pure sockets and fallback to websockets or ajax for specific applications. 
 
 About
 -----
 
 WebSockets allows a socket connection in the browser but not a pure TCP socket. 
+JavaScript-AS3-Socket allows a connection to any pure TCP socket or even UDP socket connection. 
+You can connect directly to a mail server, bitTorrent, even SSH, directly from the browser.
 
 Documentation
 -------------
